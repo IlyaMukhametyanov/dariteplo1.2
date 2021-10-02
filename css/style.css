@@ -1,0 +1,806 @@
+header {
+  width: 100%;
+  height: 135px;
+}
+.header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+.header-logo-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-logo-menu img {
+  margin-right: 120px;
+  width: 120px;
+}
+.header-logo-menu ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-logo-menu ul li {
+  position: relative;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 30px;
+}
+.header-logo-menu ul li:last-child {
+  margin-right: 0;
+}
+.header-logo-menu ul li a {
+  font-family: 'Monesta';
+  font-size: 22px;
+  text-decoration: none;
+  color: #000;
+}
+.main-green-rectangle {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  width: 965px;
+  max-width: 950px;
+  min-width: 900px;
+  height: 435px;
+  background-color: #9AAA93;
+}
+.header-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-info--buttons a {
+  text-decoration: none;
+  margin-right: 32px;
+}
+.header-info--buttons a:last-child {
+  margin-right: 0;
+}
+.phone-link {
+  font-family: 'Monesta';
+  text-decoration: none;
+  color: #000;
+  font-size: 22px;
+  margin-right: 147px;
+}
+.main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.main-info {
+  min-width: 427px;
+}
+.main-subtitle {
+  font-family: 'Kudryashev Display', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 107px;
+}
+.main-title {
+  font-family: 'Kudryashev Display', sans-serif;
+  letter-spacing: 5px;
+  font-size: 120px;
+  margin: 0;
+}
+.main-text {
+  font-family: 'Kudryashev Display', sans-serif;
+  font-size: 22px;
+  margin: 0;
+  margin-top: 29px;
+}
+.main-button {
+  font-family: 'Monesta', sans-serif;
+  border-style: none;
+  background-color: #9AAA93;
+  height: 49px;
+  width: 223px;
+  font-size: 22px;
+  margin-top: 44px;
+  border-radius: 30.5px 0 30.5px 0;
+  cursor: pointer;
+}
+.main-slider {
+  position: relative;
+}
+.slider-text {
+  font-family: 'Kudryashev Display';
+  position: absolute;
+  top: 30%;
+  left: 33px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 120px;
+  color: #fff;
+  letter-spacing: 8px;
+}
+.new-products {
+  margin-bottom: 80px;
+}
+.new-products-title {
+  font-family: 'Kudryashev Display';
+  font-size: 50px;
+  text-align: center;
+  margin-top: 120px;
+  letter-spacing: 5px;
+  margin-bottom: 50px;
+}
+.new-products-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.product-slide {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 265px;
+  width: 20%;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.25);
+          box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.product-img {
+  height: 285px;
+}
+.product-text-block {
+  background-color: #CCC4B8;
+  border-radius: 0px 0px 10px 10px;
+}
+.product-text-name {
+  margin: 14px 0px 15px 14px;
+  font-family: 'Monesta';
+  font-size: 22px;
+}
+.product-price {
+  font-family: 'Monesta';
+  font-size: 20px;
+  margin-left: 14px;
+  margin-bottom: 24px;
+  display: block;
+}
+.product-button {
+  border-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90%;
+  height: 25px;
+  width: 225px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  font-family: 'Monesta';
+  font-size: 20px;
+  border-radius: 10px;
+}
+.product-like {
+  cursor: pointer;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 10px;
+  left: 11px;
+  border-style: none;
+  background-color: #CCC4B8;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.product-like img {
+  width: 15px;
+  height: 16px;
+}
+.cardd {
+  border: none;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.cardd .card-body {
+  margin-top: 0px;
+}
+.cardd .card-body .card-title {
+  font-family: 'Monesta';
+  text-decoration: none;
+  color: #000;
+  font-size: 25px;
+  line-height: 30px;
+}
+.cardd .card-body .card-text {
+  font-family: 'Monesta';
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  line-height: 24px;
+}
+.cardd .card-body .btn-castomize {
+  background-color: #E5E1B5;
+  border: none;
+  color: #000;
+  font-family: 'Monesta';
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 21px;
+  border-radius: 10px;
+  padding: 10px 125px;
+  margin-left: 0px;
+}
+.cardd .your-class {
+  -webkit-filter: drop-shadow(5px 10px 30px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(5px 10px 30px rgba(0, 0, 0, 0.25));
+  height: 465px;
+}
+.cardd .your-class img {
+  width: 22rem;
+  border-radius: 5px;
+}
+.catalog {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+.catalog .catalog-filters {
+  width: 20%;
+}
+.catalog .catalog-filters h2 {
+  font-family: "Kudryashev Display";
+  color: black;
+  font-size: 30px;
+  text-align: left;
+  margin-top: 64px;
+}
+.catalog .catalog-content {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 40px;
+}
+.catalog .catalog-content .catalog-content-header h2 {
+  font-family: "Kudryashev Display";
+  color: black;
+  font-size: 50px;
+  text-align: center;
+}
+.catalog .catalog-content .catalog-content-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.catalog .catalog-content .catalog-content-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.exchange-refund .exchange-refund-header h2 {
+  font-family: 'Kudryashev Display';
+  color: black;
+  font-size: 50px;
+}
+.exchange-refund .exchange-refund-body p {
+  font-family: 'Monesta';
+  color: black;
+  font-size: 20px;
+}
+.delivery .delivery-header h2 {
+  font-family: 'Kudryashev Display';
+  color: black;
+  font-size: 50px;
+}
+.delivery .delivery-body p {
+  font-family: 'Monesta';
+  color: black;
+  font-size: 20px;
+}
+.buy .buy-header h2 {
+  font-family: 'Kudryashev Display';
+  color: black;
+  font-size: 50px;
+}
+.buy .buy-body p {
+  font-family: 'Monesta';
+  color: black;
+  font-size: 20px;
+}
+.discount {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+.discount .discount-content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.discount .discount-content .discount-content-header h2 {
+  font-family: "Kudryashev Display";
+  color: black;
+  font-size: 50px;
+  text-align: center;
+}
+.discount .discount-content .discount-content-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.about .about-header h2 {
+  font-family: 'Kudryashev Display';
+  color: black;
+  font-size: 50px;
+}
+.about .about-body p {
+  font-family: 'Monesta';
+  color: black;
+  font-size: 20px;
+}
+.about .about-body .about-body-instagram .about-body-instagram-header h3 {
+  font-family: 'Kudryashev Display';
+  color: black;
+  font-size: 30px;
+}
+.about .about-body .about-body-instagram .about-body-instagram-body .about-body-instagram-body-slider .item img {
+  width: 250px;
+}
+.shop-cart .shop-cart-header h3 {
+  font-family: 'Kudryashev Display';
+  color: black;
+  font-size: 50px;
+}
+table {
+  width: 100%;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  border-collapse: collapse;
+  color: #686461;
+}
+th {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  text-align: left;
+  width: 16%;
+}
+th.namer {
+  width: 52%;
+}
+td {
+  padding: 30px 0px;
+}
+tr {
+  padding: 0px 0px;
+  background: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.name .name-img {
+  margin-right: 20px;
+}
+.name .name-img img {
+  height: 158px;
+}
+.name .name-info .name-info-header h3 {
+  font-family: 'Monesta';
+  font-size: 25px;
+  color: black;
+  margin-top: 0px;
+}
+.name .name-info-body p {
+  font-family: 'Monesta';
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 0px;
+}
+.number {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  position: relative;
+  text-align: left;
+  padding: 0;
+  width: 140px;
+  border: 1px solid #ddd;
+  display: inline-block;
+}
+.number-minus,
+.number-plus {
+  position: absolute;
+  top: 0;
+  width: 40px;
+  height: 32px;
+  line-height: 32px;
+  display: block;
+  background: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+.number-minus {
+  left: 0;
+}
+.number-plus {
+  right: 0;
+}
+.number-minus:hover,
+.number-plus:hover {
+  background: #fffcfb;
+}
+.number-minus:active,
+.number-plus:active {
+  background: #e8e4e2;
+}
+.number-text {
+  display: inline-block;
+  font-size: 14px;
+  color: #000;
+  line-height: 32px;
+  height: 32px;
+  padding: 0;
+  margin: 0 0 0 42px;
+  background: #fff;
+  outline: none;
+  border: none;
+  width: 57px;
+  text-align: center;
+}
+.last {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+.last .last-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+footer {
+  width: 100%;
+  height: 282px;
+  background-color: #9AAA93;
+}
+.footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.footer-info {
+  margin-top: 38px;
+  margin-right: 81px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.footer-info-help {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 45px;
+}
+.footer-info-catalog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.footer-info-title {
+  font-family: 'Monesta';
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+.footer-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer-list li {
+  margin-bottom: 15px;
+}
+.footer-list li:last-child {
+  margin-bottom: 0;
+}
+.footer-list a {
+  font-family: 'Kudryashev Display';
+  font-size: 18px;
+  text-decoration: none;
+  color: #000000;
+}
+.footer-list--catalog {
+  margin-right: 41px;
+}
+.footer-list--catalog:last-child {
+  margin-right: 0;
+}
+.footer-info-catalog-lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.footer-contacts {
+  margin-top: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer-email {
+  display: block;
+  position: relative;
+  font-family: 'Kudryashev Display';
+  font-size: 22px;
+  height: 30px;
+  width: 270px;
+  margin-bottom: 26px;
+}
+.footer-email label {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.footer-email input {
+  height: 100%;
+  width: 100%;
+  border-style: none;
+  background-color: transparent;
+  border-bottom: 1px solid #000;
+}
+.footer-email input:focus,
+.footer-email input:active {
+  outline: none;
+}
+.send {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  border-style: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.footer-copywright {
+  font-family: 'Kudryashev Display';
+  font-size: 16px;
+  text-align: right;
+}
+.footer-contacts-bottom {
+  text-align: right;
+  margin-top: 83px;
+}
+.footer-contacts-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+.footer-contacts-info img {
+  width: 19px;
+  height: 19px;
+}
+.footer-contacts-info img:last-child {
+  margin-right: 20px;
+}
+.footer-phone {
+  font-family: 'Monesta';
+  font-size: 22px;
+  text-decoration: none;
+  color: #000;
+}
+.footer-company {
+  font-family: 'Kudryashev Display';
+  font-size: 16px;
+}
+.footer-company a {
+  color: #000;
+}
+.sales {
+  margin-bottom: 71px;
+}
+.sales-title {
+  font-family: 'Kudryashev Display';
+  font-size: 50px;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 50px;
+  letter-spacing: 5px;
+}
+.sales-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.product-old-price {
+  position: relative;
+  font-family: 'Monesta';
+  font-size: 16px;
+  margin-left: 14px;
+  margin-top: 4px;
+  margin-bottom: 7px;
+}
+.product-old-price::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+}
+@font-face {
+  font-family: 'Kudryashev Display';
+  src: url('../fonts/KudryashevDisplay-Sans.eot');
+  src: url('../fonts/KudryashevDisplay-Sans.eot?#iefix') format('embedded-opentype'), url('../fonts/KudryashevDisplay-Sans.woff2') format('woff2'), url('../fonts/KudryashevDisplay-Sans.woff') format('woff'), url('../fonts/KudryashevDisplay-Sans.ttf') format('truetype'), url('../fonts/KudryashevDisplay-Sans.svg#KudryashevDisplay-Sans') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Monesta';
+  src: url('../fonts/Monesta-LightDEMO.eot');
+  src: url('../fonts/Monesta-LightDEMO.eot?#iefix') format('embedded-opentype'), url('../fonts/Monesta-LightDEMO.woff2') format('woff2'), url('../fonts/Monesta-LightDEMO.woff') format('woff'), url('../fonts/Monesta-LightDEMO.ttf') format('truetype'), url('../fonts/Monesta-LightDEMO.svg#Monesta-LightDEMO') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Kudryashev Headline';
+  src: url('../fonts/KudryashevHeadline-Sans.eot');
+  src: url('../fonts/KudryashevHeadline-Sans.eot?#iefix') format('embedded-opentype'), url('../fonts/KudryashevHeadline-Sans.woff2') format('woff2'), url('../fonts/KudryashevHeadline-Sans.woff') format('woff'), url('../fonts/KudryashevHeadline-Sans.ttf') format('truetype'), url('../fonts/KudryashevHeadline-Sans.svg#KudryashevHeadline-Sans') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+.container {
+  width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+}
